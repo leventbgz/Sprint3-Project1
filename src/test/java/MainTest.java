@@ -19,7 +19,7 @@ public class MainTest {
     @BeforeEach
     void setUp() {
         Grocery.groceryList.clear();
-        List<Contact> contacts = new ArrayList<>();
+        ArrayList<Contact> contacts = new ArrayList<>();
         contacts.add(new Contact("John Doe", "123123123"));
         contacts.add(new Contact("Jane Doe", "124124124"));
         contacts.add(new Contact("Baby Doe", "125125125"));
